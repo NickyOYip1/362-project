@@ -1,0 +1,57 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+
+# Redis
+dump.rdb
+
+# Project specific
+statistics.json
+temp/
+
+# Documentation and notes
+notes/
+*.md
+!README.md
+!s13314481readme.md 
